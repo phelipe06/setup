@@ -17,12 +17,12 @@ blue="\033[1;34m"
 nc="\e[0m"
 
 echo
+pkg install screenfetch
+  setterm --foreground 'green'
+echo " @phellipe_011"
   echo
-  echo
-printf " ____________________________"
-printf "| autor: \e[1;31m @phellipe_011 \e[0m    \e[1;37m |\e[0m"
-printf "| versão:\e[1;31m 1.2 \e[0m              \e[1;37m |\e[0m"
-printf "|____________________________|"
+    echo
+screenfetch
  echo -e
  echo -e
          setterm --foreground "cyan"
@@ -56,6 +56,7 @@ printf "|____________________________|"
       echo " > ssh instalado "
    echo
    echo
+   pkg install toilet -y
              setterm --foreground "cyan"
    echo " Dando permissao para executar..."
      
@@ -63,7 +64,7 @@ printf "|____________________________|"
     echo
    echo
         setterm --foreground "green"
-    toilet -f slant "    PRONTO!"
+    toilet -f mono12 "    PRONTO!"
 echo
         setterm --foreground "white"
 echo " •configurado "
