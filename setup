@@ -1,4 +1,4 @@
-#!/bin/bash;
+#!/bin/bash
 #setup
 #config
 
@@ -17,7 +17,7 @@ blue="\033[1;34m"
 nc="\e[0m"
 
 echo
-pkg install screenfetch
+pkg install screenfetch -y
   setterm --foreground 'green'
 echo " @phellipe_011"
   echo
@@ -30,23 +30,23 @@ screenfetch
    echo
    apt-get update > install.log
    echo
-   pkg install php
+   pkg install php -y
       echo
          setterm --foreground "green"
       echo " > php instalado "
       echo
       echo
-   pkg install cowsay
+   pkg install cowsay -y
          setterm --foreground "green"
       echo " > cowsay instalado "
      echo
       echo
-   pkg install python
+   pkg install python -y
          setterm --foreground "green"
       echo " > python instalado "
      echo
       echo
-   pkg install python2
+   pkg install python2 -y
          setterm --foreground "green"
       echo " > python2 instalado "
      echo
