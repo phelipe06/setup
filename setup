@@ -64,7 +64,7 @@ screenfetch
     echo
    echo
         setterm --foreground "green"
-    toilet -f mono12 "    PRONTO!"
+    toilet -f mono12 " PRONTO!"
 echo
         setterm --foreground "white"
 echo " •configurado "
